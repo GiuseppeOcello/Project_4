@@ -1,0 +1,3 @@
+@function get-grid-color($type) {
+   $map: map-get($color-buttons, $type);
+};

@@ -1,0 +1,56 @@
+/* ============================================= */
+/*                    Lists                      */
+/* ============================================= */
+
+$buttons: ('default',
+           'error',
+           'info',
+           'success',
+           'warning');
+
+$color-list-grid: (get-grid-color('info'), //3
+                   get-grid-color('warning'), //5
+                 #deb2ee,
+                 #7ee6fd,
+                 #88d9a0,
+                 #4da2bb,
+                 #ec9fa3,
+                 #fd9f85,
+                   get-grid-color('error'), //2
+                   get-grid-color('success'), //4
+                   get-grid-color('default'), //1
+                 #80e8d1,
+);          
+
+/* ============================================= */
+/*                    Maps                      */
+/* ============================================= */
+
+$color-buttons: (
+ 'default': $color-secondary,
+   'error': #e4757a,
+    'info': #927bc1,
+ 'success': #63cc82,
+ 'warning': #fd7856,
+);
+
+// $color-grid: (
+//  'default': $color-secondary, //1 #51ddfc
+//    'error': #e4757a, //2
+//     'info': #927bc1, //3
+//  'success': #63cc82, //4
+//  'warning': #fd7856, //5
+
+//   1: #927bc1, //3
+//   2: #fd7856, //5
+//   3: #deb2ee,
+//   4: #7ee6fd,
+//   5: #88d9a0,
+//   6: #4da2bb,
+//   7: #ec9fa3,
+//   8: #fd9f85,
+//   9: #e4757a, //2
+//  10: #63cc82, //4
+//  11: #51ddfc, //1
+//  12: #80e8d1,
+// );
