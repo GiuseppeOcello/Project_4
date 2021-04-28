@@ -2,7 +2,9 @@
 /*              Base styles                      */
 /* ============================================= */
 
-* {
-   box-sizing: border-box;
- }
+ * {
+  font-family: $font-stack-primary;
+  color: $color-text;
+  box-sizing: border-box;
+}
  

@@ -3,17 +3,20 @@
 /* ============================================= */
 
 .form {
-   flex-basis: 100%;
+   flex-basis: $flex-basis;
+   fieldset {
+     border: none;
+   }
  }
  
- .input{
-   display: block;
-   width: 94%;
-   margin: 10px auto 0;
-   border: none;
-   padding: 10px;
-   border-bottom: 5px solid #58e1c1;
- }
+.input{
+  display: block;
+  width: 94%;
+  margin: 10px auto 0;
+  border: none;
+  padding: 10px;
+  border-bottom: 5px solid $color-primary;
+}
  
  .hidden {
    position:absolute;

@@ -30,17 +30,3 @@
    }
   }
 }
-
-
-// @each $button in $buttons {
-  
-//   .#{$button} {
-//     @extend%btn;
-//     $i: index($buttons, $button);
-//     $color: #{"$color-btn-#{$button}"}; 
-//     background-color: $color;
-//   //   &:hover {
-//   //    background-color: lighten($color ,15%);
-//   //  }
-//   }
-// }
